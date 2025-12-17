@@ -956,3 +956,116 @@ footer {
 .social-icons a:hover {
   color: white;
 }
+
+
+
+
+/* ===================== GLOBAL MOBILE FIX ===================== */
+@media (max-width: 992px) {
+
+  /* NAVBAR FIX */
+  #navbar {
+    padding: 10px 15px;
+  }
+
+  .first-logo {
+    width: 160px;
+  }
+
+  .second-logo {
+    width: 120px;
+  }
+
+  /* CAROUSEL HEIGHT FIX */
+  .carousel-item img {
+    height: 70vh;
+  }
+
+  /* ABOUT SECTION */
+  #sec2 {
+    padding: 60px 15px;
+  }
+
+  .box-bg {
+    width: 90%;
+    margin-right: 0;
+  }
+
+  /* BLOG SECTION */
+  #sec4 {
+    width: 100%;
+    margin-left: 0;
+    padding: 60px 15px;
+  }
+
+  /* EVENT GALLERY */
+  #event-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-gallery-cards img {
+    width: 100% !important;
+  }
+
+  /* CAREERS */
+  #careers {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  #careers img {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+
+  #careers-content {
+    margin-right: 0;
+  }
+
+  /* CONTACT FORM */
+  #sec7 {
+    margin-left: 0;
+    padding: 40px 20px;
+  }
+
+  h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+}
+
+/* ===================== SMALL MOBILE ===================== */
+@media (max-width: 576px) {
+
+  /* CAROUSEL */
+  .carousel-item img {
+    height: 60vh;
+  }
+
+  /* NUM BUTTON */
+  .btn {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+
+  /* BRANDS */
+  .carousel-track {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .carousel-track img {
+    width: 120px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 30px 15px;
+  }
+
+  .footer-logo img {
+    width: 160px;
+  }
+}

@@ -9,6 +9,7 @@ html {
   padding: 0%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  margin-bottom: 0%;
 }
 
 /* ============================================================================================================================== */
@@ -87,6 +88,11 @@ html {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
   border-radius: 1px;
+}
+
+#phn-btn:hover {
+   border-bottom: none !important;
+   padding-bottom: 0%;
 }
 
 #link {
@@ -869,7 +875,7 @@ footer {
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -937,8 +943,8 @@ footer {
   color: #aaa;
   text-align: center;
   padding: 20px 10px;
-  margin-bottom: 0%;
-  width: 100%;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
 
 .bottom-footer p {
